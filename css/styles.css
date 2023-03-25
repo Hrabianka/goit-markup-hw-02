@@ -167,6 +167,8 @@ ul {
 
 .footer-info {
   color: rgba(255, 255, 255, 0.6);
+  top: 9px;
+  padding-inline-start: 0%;
 }
 
 .logo-footer {
