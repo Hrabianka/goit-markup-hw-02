@@ -1,0 +1,184 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #e5e5e5;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+
+header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
+
+address {
+  position: absolute;
+  width: 246px;
+  height: 81px;
+  left: 215px;
+  top: 111px;
+  color: #ffffff;
+}
+
+h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 200px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+footer {
+  background: #2f303a;
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+}
+
+.web {
+  color: #2196f3;
+}
+.studio {
+  color: #000000;
+}
+
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.e-mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  font-family: 'Roboto';
+
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.telephone {
+  position: absolute;
+  width: 110px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+}
+ul {
+  list-style-type: none;
+}
+
+.index {
+  position: absolute;
+  width: 53px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-size: 14px;
+  line-height: 16px;
+}
+.portfolio {
+  position: absolute;
+  width: 58px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-size: 14px;
+  line-height: 16px;
+}
+.contact {
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 656px;
+  top: 32px;
+
+  font-size: 14px;
+  line-height: 16px;
+}
+.main-div {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+.portfolio-main-div {
+  position: absolute;
+  width: 572px;
+  height: 54px;
+  left: 510px;
+  top: 174px;
+}
+
+.main-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.footer-info {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-footer {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
