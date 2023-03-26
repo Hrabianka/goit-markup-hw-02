@@ -262,7 +262,6 @@ ul {
 .team-li {
   display: block;
   float: left;
-
 }
 
 .team {
@@ -275,6 +274,38 @@ ul {
   background: #f5f4fa;
 }
 
-.team-figure{
-  background: #FFFFFF;
+.team-figure,
+figure-image-portfolio {
+  background: #ffffff;
+}
+
+.portfolio-main {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+}
+
+.button-portfolio {
+  display: block;
+  float: left;
+
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+}
+
+.li-images-portfolio {
+  display: block;
+  float: left;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+}
+
+.images-portfolio {
+  top: 262px;
 }
