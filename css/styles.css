@@ -50,6 +50,15 @@ h1 {
   color: #ffffff;
 }
 
+button {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 footer {
   background: #2f303a;
   position: absolute;
@@ -183,4 +192,89 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+}
+
+.team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+
+  background: #f5f4fa;
+}
+
+.lorem {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+
+.what-to-do {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
+
+.lorem-li {
+  display: block;
+  float: left;
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+
+.lorem-p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #757575;
+}
+
+.lorem-h5 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.to-do-li {
+  display: block;
+  float: left;
+  margin: 10px;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+
+.team-li {
+  display: block;
+  float: left;
+
+}
+
+.team {
+  position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+
+  background: #f5f4fa;
+}
+
+.team-figure{
+  background: #FFFFFF;
 }
