@@ -1,6 +1,12 @@
 :root {
   --text-color: #212121;
   --theme-color: #e5e5e5;
+  --blue-color: #2196f3;
+  --white-color: #ffffff;
+  --grey-color: #2f303a;
+  --black-color: #000000;
+  --whiter-color: #f5f4fa;
+  --silver-color: #757575;
 }
 
 body {
@@ -12,76 +18,79 @@ body {
 
 .logo {
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 .index {
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 .portfolio {
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 .contact {
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 .e-mail {
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 .telephone {
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 .logo-footer {
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 .footer-info {
   text-decoration: none;
-  color: #212121;
+  color: inherit;
 }
 
 .logo:hover,
 .logo:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .index:hover,
 .index:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .portfolio:hover,
 .portfolio:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .contact:hover,
 .contact:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .e-mail:hover,
 .e-mail:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .telephone:hover,
 .telephone:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .logo-footer:hover,
 .logo-footer:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .footer-info:hover,
 .footer-info:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .main-button:hover,
 .main-button:focus {
-  color: #2196f3;
+  background: var(--blue-color);
+  color: var(--white-color);
 }
+
 .portfolio-button:hover,
 .portfolio-button:focus {
-  color: #2196f3;
+  background: var(--blue-color);
+  color: var(--white-color);
 }
 
 .main-header {
@@ -91,7 +100,7 @@ body {
   left: 0px;
   top: 0px;
 
-  background: #ffffff;
+  background: var(--white-color);
 }
 
 .address-footer {
@@ -100,7 +109,7 @@ body {
   height: 81px;
   left: 215px;
   top: 111px;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .main-h1 {
@@ -109,7 +118,6 @@ body {
   height: 120px;
   left: 452px;
   top: 200px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 136%;
@@ -118,7 +126,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .main-button .portfolio-button {
@@ -126,7 +134,7 @@ body {
 }
 
 .main-footer {
-  background: #2f303a;
+  background: var(--grey-color);
   position: absolute;
   width: 1600px;
   height: 252px;
@@ -135,10 +143,10 @@ body {
 }
 
 .web {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .studio {
-  color: #000000;
+  color: var(--black-color);
 }
 
 .logo {
@@ -174,7 +182,7 @@ body {
 
   font-size: 14px;
   line-height: 16px;
-  color: #757575;
+  color: var(--silver-color);
 }
 
 .index {
@@ -214,7 +222,7 @@ body {
   left: 0px;
   top: 80px;
 
-  background: #2f303a;
+  background: var(--grey-color);
 }
 .portfolio-main-div {
   position: absolute;
@@ -230,10 +238,10 @@ body {
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #2196f3;
+  background: var(--blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-info {
@@ -263,7 +271,7 @@ body {
   left: 0px;
   top: 1449px;
 
-  background: #f5f4fa;
+  background: var(--whiter-color);
 }
 
 .lorem {
@@ -306,7 +314,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: inherit;
 }
 
 .to-do-li {
@@ -331,14 +339,14 @@ body {
   left: 0px;
   top: 1449px;
 
-  background: #f5f4fa;
+  background: var(--whiter-color);
 }
 
 .team-figure {
-  background: #ffffff;
+  background: var(--white-color);
 }
 .figure-image-portfolio {
-  background: #ffffff;
+  background: var(--white-color);
 }
 
 .portfolio-main {
