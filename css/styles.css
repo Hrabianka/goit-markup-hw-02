@@ -1,6 +1,12 @@
+:root {
+  --text-color: #212121;
+  --theme-color: #e5e5e5;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  background: #e5e5e5;
+  background: var(--theme-color);
+  color: var(--text-color);
   font-weight: 500;
 }
 
