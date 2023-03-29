@@ -10,16 +10,81 @@ body {
   font-weight: 500;
 }
 
-a {
+.logo {
   text-decoration: none;
   color: #212121;
 }
-a:hover,
-a:focus {
+.index {
+  text-decoration: none;
+  color: #212121;
+}
+.portfolio {
+  text-decoration: none;
+  color: #212121;
+}
+.contact {
+  text-decoration: none;
+  color: #212121;
+}
+.e-mail {
+  text-decoration: none;
+  color: #212121;
+}
+.telephone {
+  text-decoration: none;
+  color: #212121;
+}
+.logo-footer {
+  text-decoration: none;
+  color: #212121;
+}
+.footer-info {
+  text-decoration: none;
+  color: #212121;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+.index:hover,
+.index:focus {
+  color: #2196f3;
+}
+.portfolio:hover,
+.portfolio:focus {
+  color: #2196f3;
+}
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
+}
+.e-mail:hover,
+.e-mail:focus {
+  color: #2196f3;
+}
+.telephone:hover,
+.telephone:focus {
+  color: #2196f3;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: #2196f3;
+}
+.footer-info:hover,
+.footer-info:focus {
+  color: #2196f3;
+}
+.main-button:hover,
+.main-button:focus {
+  color: #2196f3;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: #2196f3;
 }
 
-header {
+.main-header {
   position: absolute;
   width: 1600px;
   height: 80px;
@@ -29,7 +94,7 @@ header {
   background: #ffffff;
 }
 
-address {
+.address-footer {
   position: absolute;
   width: 246px;
   height: 81px;
@@ -38,7 +103,7 @@ address {
   color: #ffffff;
 }
 
-h1 {
+.main-h1 {
   position: absolute;
   width: 696px;
   height: 120px;
@@ -56,16 +121,11 @@ h1 {
   color: #ffffff;
 }
 
-button {
+.main-button .portfolio-button {
   cursor: pointer;
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-footer {
+.main-footer {
   background: #2f303a;
   position: absolute;
   width: 1600px;
@@ -100,7 +160,6 @@ footer {
   height: 16px;
   left: 1078px;
   top: 32px;
-  font-family: 'Roboto';
 
   font-size: 14px;
   line-height: 16px;
@@ -116,9 +175,6 @@ footer {
   font-size: 14px;
   line-height: 16px;
   color: #757575;
-}
-ul {
-  list-style-type: none;
 }
 
 .index {
@@ -236,7 +292,6 @@ ul {
 }
 
 .lorem-p {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -245,7 +300,6 @@ ul {
 }
 
 .lorem-h5 {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -280,8 +334,10 @@ ul {
   background: #f5f4fa;
 }
 
-.team-figure,
-figure-image-portfolio {
+.team-figure {
+  background: #ffffff;
+}
+.figure-image-portfolio {
   background: #ffffff;
 }
 
