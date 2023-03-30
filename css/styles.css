@@ -182,7 +182,7 @@ body {
 
   font-weight: 700;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 119%;
 }
 
 .e-mail {
@@ -193,7 +193,7 @@ body {
   top: 32px;
 
   font-size: 14px;
-  line-height: 100%;
+  line-height: 114%;
 }
 
 .telephone {
@@ -204,7 +204,7 @@ body {
   top: 32px;
 
   font-size: 14px;
-  line-height: 100%;
+  line-height: 114%;
   color: var(--silver-color);
 }
 
@@ -216,7 +216,7 @@ body {
   top: 32px;
 
   font-size: 14px;
-  line-height: 100%;
+  line-height: 114%;
 }
 .portfolio {
   position: absolute;
@@ -226,7 +226,7 @@ body {
   top: 32px;
 
   font-size: 14px;
-  line-height: 100%;
+  line-height: 114%;
 }
 .contact {
   position: absolute;
@@ -236,7 +236,7 @@ body {
   top: 32px;
 
   font-size: 14px;
-  line-height: 100%;
+  line-height: 114%;
 }
 .main-div {
   position: absolute;
@@ -285,7 +285,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 119%;
 }
 
 .team {
@@ -335,7 +335,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 136%;
+  line-height: 114%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: inherit;
@@ -425,5 +425,5 @@ body {
 .signature-position {
   font-weight: 500;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 119%;
 }
