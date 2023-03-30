@@ -130,10 +130,16 @@ body {
   color: var(--white-color);
 }
 
-.main-button .portfolio-button {
+.main-button {
   cursor: pointer;
+  font-weight: 700;
 }
 
+.portfolio-button {
+  cursor: pointer;
+
+  font-weight: 500;
+}
 .main-footer {
   background: var(--grey-color);
   position: absolute;
@@ -148,6 +154,10 @@ body {
 }
 .studio {
   color: var(--black-color);
+}
+
+.studio-footer {
+  color: var(--white-color);
 }
 
 .logo {
